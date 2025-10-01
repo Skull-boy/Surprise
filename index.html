@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Love</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="animate__animated animate__fadeIn">
+            <h1>For The Love of My Life</h1>
+            <p class="subtitle">Every moment with you is a treasure...</p>
+        </header>
+        
+        <section class="gallery">
+            <div class="heart-container">
+                <div class="heart"></div>
+            </div>
+            
+            <!-- ✅ Slideshow with 3 images -->
+            <div class="slideshow-container">
+                <!-- Slide 1 -->
+                <div class="slide active" style="background-image: url('images/us7.jpeg');"></div>
+                <!-- Slide 2 -->
+                <div class="slide" style="background-image: url('images/us3.jpeg');"></div>
+                <!-- Slide 3 -->
+                <div class="slide" style="background-image: url('images/us5.jpeg');"></div>
+
+                <!-- Message overlay -->
+                <div class="message-overlay">
+                    <p id="love-message">I miss you so much...</p>
+                </div>
+
+                <!-- Controls -->
+                <div class="controls">
+                    <button id="prev" aria-label="Previous image">❮</button>
+                    <button id="next" aria-label="Next image">❯</button>
+                </div>
+            </div>
+            
+            <div class="image-counter">
+                <span id="current">1</span>/<span id="total">3</span>
+            </div>
+        </section>
+        
+        <section class="love-letter animate__animated animate__fadeInUp animate__delay-1s">
+            <h2>My Dearest,</h2>
+            <p>Words cannot express how much you mean to me. Every day without you feels like an eternity.</p>
+            <p>Your smile brightens my darkest days, and your love gives me strength I never knew I had.</p>
+            <p>This little surprise is just a small token of my affection for you.</p>
+            <p>I cherish every moment we've shared and look forward to creating countless more memories together.</p>
+            <p class="signature">Forever Yours,<br>Your Love</p>
+        </section>
+        
+        <footer>
+            <p>Made with ❤️ just for you</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
